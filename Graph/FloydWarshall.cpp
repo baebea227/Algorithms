@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
     int n;
+    cin >> n;
     const int INF = 1e9;
 
     vector<vector<int>> dist(n, vector<int>(n, INF));
